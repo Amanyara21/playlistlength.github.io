@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +11,6 @@
 .fa{
     color: black;
 }
-.link h1{
-    margin: 12px 0 0;
-}
 .container{
     justify-content: space-between;
     align-items: center;
@@ -22,6 +20,9 @@ input{
     padding: 0 10px;
     border-right: none;
     height: 35px;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
 }
 #cal{
     height: 35px;
