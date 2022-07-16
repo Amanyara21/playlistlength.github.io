@@ -1,0 +1,39 @@
+.container {
+    animation: 2s anim-lineUp ease-out 1;
+  }
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+  .results{
+    animation: 2s anim-flipX ease 2;
+  }
+  @keyframes anim-flipX {
+    0% {
+      opacity: 0;
+      transform: rotateX(90def);
+    }
+    50% {
+      opacity: 1;
+      transform: rotateX(720deg);
+    }
+    100% {
+      opacity: 1;
+      transform: rotateX(720deg);
+    }
+  }
+  

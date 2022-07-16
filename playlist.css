@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.head1{
+    height: 80px;
+}
+header{
+    background-color: lightblue;
+}
 .link{
     color: black;
     text-decoration: none;
@@ -11,8 +17,15 @@
 .fa{
     color: black;
 }
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
     justify-content: space-between;
+    align-items: center;
+}
+.cont1{
     align-items: center;
 }
 input{
@@ -20,9 +33,6 @@ input{
     padding: 0 10px;
     border-right: none;
     height: 35px;
-}
-.heading{
-    font-family: 'Poppins', sans-serif;
 }
 #cal{
     height: 35px;
