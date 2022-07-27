@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, Tahoma, 'Courier New';
 }
 .head1{
     height: 80px;
@@ -18,6 +19,11 @@ header{
     color: black;
 }
 
+@media (min-width: 1600px){
+    p{
+        font-size: larger;
+    }
+}
 .heading{
     font-family: 'Poppins', sans-serif;
 }
