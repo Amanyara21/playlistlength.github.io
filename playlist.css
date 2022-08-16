@@ -26,6 +26,7 @@ header{
 }
 .heading{
     font-family: Helvetica, Tahoma, 'Courier New';
+    margin:0;
 }
 .container{
     justify-content: space-between;
