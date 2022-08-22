@@ -25,6 +25,11 @@ p{
     margin: 10px;
     /* font-size: 20px; */
 }
+#btn1 , #btn2, #btn3{
+    margin: 10px 40px 30px; 
+    width: 145px; 
+    height: 64px;
+}
 .share{
     border-radius: 50%;
     border: white;
