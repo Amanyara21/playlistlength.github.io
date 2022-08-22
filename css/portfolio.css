@@ -86,7 +86,6 @@ button a{
     position: relative;
     display: inline-block;
     padding: 20px 20px;
-    
     margin: 20px 0;
     color: #03e9f4;
     text-decoration: none;
@@ -94,8 +93,11 @@ button a{
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
-    /* margin-right: 50px; */
+    margin-right: 50px;
     border:0.1px solid #03e9f4;
+}
+button{
+    border: none;
 }
 .nav-linker:hover {
     background: #03e9f4!important;
@@ -138,5 +140,10 @@ button a:hover{
     }
     .container1 {
         flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container1{
+        height: auto;
     }
 }
