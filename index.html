@@ -6,36 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="YT Playlist length Calculator is a YouTube Playlist Length Analyzer Tool that allows you to find out duration of YouTube full playlist or duration of some videos in playlist by entering video Numbers. ">
+        content="YTPlaylist-length Calculator is a YouTube Playlist Length Analyzer Tool that allows you to find out duration of YouTube full playlist or duration of some videos in playlist by entering video Numbers. ">
     <title>YouTube Playlist-Length</title>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link rel="icon" href="favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="playlist.css">
-    <link rel="stylesheet" href="animation.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
-         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/playlist.css">
+    <link rel="stylesheet" href="css/header&share.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
 
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <nav class="container d-flex head1">
-                <div class="leftlogo d-flex" >
-                    <a class="link text-center" href="#">
-                        <h1 class="heading">
-                            YT-Playlist Length
-                        </h1>
-                    </a>
-                </div>
-                <div class="rightlogo">
-                    <a href="https://github.com/Aman2104" target="_blank"><i class="fa fa-github"
-                            style="font-size:24px "></i></a>
-                </div>
-            </nav>
-            <hr style="opacity : 0.2;">
-            <!-- Nav complete time for main box -->
+        <div class="heading container-xxl">
+            <div class="logo">
+                <h1>YTPlaylist Length</h1>
+            </div>
+            <div class="linking">
+                <ul>
+                    <li class="nav-linker"><a class="hyperlinks" href="#">Home</a></li>
+                    <li class="nav-linker"><a class="hyperlinks" href="table.html">Time Table</a></li>
+                    <li class="nav-linker"><a class="hyperlinks" href="Notes.html">Notes</a></li>
+                    <li class="nav-linker"><a class="hyperlinks" href="about.html">About Me</a></li>
+                </ul>
+            </div>
+            <div class="menu-lines">
+                <i id="menu" style=" font-size: 25px;"class="fa fa-bars" ></i>
+            </div>
+        </div>
     </header>
     <section>
         <div class="container d-flex">
@@ -71,20 +70,39 @@
     </section>
     <section class="about container">
         <div class="text">
-            <h2 class="text-center">YT Playlist Length Calculator</h2>
-            <p class="text-center">YT Playlist Length calculator is a tool used to find the Duration of videos present in a playlist.
-                Here You can find the full playlist duration as well as the duration of some videos present in a playlist. This is the only YT playlist length calculator which gives you the duration of some desired videos in a playlist.
+            <h2 class="text-center">Youtube Playlist Length Calculator</h2>
+            <p class="text-center">Youtube Playlist Length calculator is a tool used to find the Duration of videos present in a playlist.
+                Here You can find the full playlist duration as well as the duration of some videos present in a playlist. This is the only Youtube playlist length calculator which gives you the duration of some desired videos in a playlist.
                 For finding the duration of playlist paste the link of playlist in Input tag and write the number of videos in from and to input tag.
             </p>
         </div>
         <hr style="opacity: 0.2;">
     </section>
-    <footer>
-        <div class="container mono text-center ">
-            <p>Made By <a href="https://www.linkedin.com/in/aman-kumar-8b5074244/"> Aman Kumar </a></p>
+    <section class="contact">
+        <div class="contact-btn">
+            <a href="https://www.linkedin.com/in/aman-kumar-Aman2104/">
+                <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/Amanyara21">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://github.com/Aman2104">
+                <i class="fa fa-github"></i>
+            </a>
+            <a href="mailto:amanyara88@gmail.com">
+                <i class="fa fa-envelope"></i>
+            </a>
+            <div>
+                <i class="fa fa-share-alt"></i>
+            </div>
         </div>
-    </footer>
-    <script src="index.js"></script>
+     </section>
+     <footer style="height: 100px;">
+        <p class="text-center">Made by <span class="name" style="color: blue;"><a style="color: blue; text-decoration: none;"href="https://www.linkedin.com/in/aman-kumar-Aman2104/"> Aman Kumar</a></span></p>
+     </footer>
+    <script src="javascript/js.js"></script>
+    <script src="javascript/share.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>

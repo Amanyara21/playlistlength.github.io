@@ -5,36 +5,16 @@
     box-sizing: border-box;
     font-family: Helvetica, Tahoma, 'Courier New';
 }
-.head1{
-    height: 80px;
-}
-header{
-    background-color: lightblue;
-}
-.link{
-    color: black;
-    text-decoration: none;
-}
-.fa{
-    color: black;
-}
 
 @media (min-width: 1600px){
     p{
         font-size: larger;
     }
 }
-.heading{
-    font-family: Helvetica, Tahoma, 'Courier New';
-    margin:0;
-}
-.container{
-    justify-content: space-between;
+
+/* .cont1{
     align-items: center;
-}
-.cont1{
-    align-items: center;
-}
+} */
 input{
     border: 1.9px solid black;
     padding: 0 10px;
@@ -55,11 +35,7 @@ input{
     /* width: 1176px; */
     width: 100%;
 }
-p a{
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-}
+
 .edit{
     padding : 1px 18px;
     border: 1.8px solid black;
@@ -74,9 +50,4 @@ p a{
 .text{
     margin: 10px 1px;
     font-size: 15px;
-}
-.mono{
-    font-family: monospace;
-    font-weight: 500;
-    font-size: 20px;
 }
