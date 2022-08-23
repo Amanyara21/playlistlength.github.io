@@ -32,3 +32,4 @@ btn.addEventListener("click", ()=>{
         arr[i].classList.toggle("act")
     }
 })
+
