@@ -46,7 +46,7 @@ header{
 }
 .nav-linker{
     display: inline;
-    margin: 20px;
+    /* margin: 20px; */
     padding: 1.4rem;
 }
 ul{
@@ -60,15 +60,16 @@ ul{
         /* display: none; */
         /* display: block!important; */
         /* z-index: 5; */
-        left: -100%;
+        background-color: #050801;
         position: absolute;
+        left: -120%;
         width: 100%;
         margin-top: 10px;
-        background: black;
     }
     .show{
         display: block;
-        z-index: 5;
+        z-index: 3;
+        left: 0%;
         animation: draweropen 2s 1;
     }
     header{
@@ -77,14 +78,16 @@ ul{
     }
     .hide{
         display: block;
-        left: -100%;
+        left: -120%;
+        z-index: 3;
         animation: drawerclose 2s 1;
     }
     .nav-linker{
         display: block;
         margin: 0;
         text-align: center;
-        padding: 0.5rem;
+        border-bottom: 2px solid white;
+        /* padding: 0.5rem; */
     }
     .act{
         display: block;
@@ -188,7 +191,6 @@ ul{
     .contact-btn a{
         margin: 0 12px;
     }
-
 }
 
 
@@ -209,9 +211,3 @@ ul{
         left: -100%;
     }
 }
-
-    .contact-btn div{
-        margin: 0 12px;
-    }
-
-

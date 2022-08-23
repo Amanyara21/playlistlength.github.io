@@ -5,7 +5,10 @@
     text-decoration: none;
     font-family: Helvetica, sans-serif;
 }
-
+button a{
+    text-decoration: none;
+    color: aliceblue;
+}
 .marg{
     margin-top: 50px;
 }
@@ -13,7 +16,7 @@
     position: relative;
     right: 2px;
     height: 35px;
-    z-index: 3;
+    z-index: 2;
     color: honeydew;
     background-color: #2e3c50;
     width: 90px;

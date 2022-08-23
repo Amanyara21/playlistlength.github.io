@@ -21,14 +21,14 @@ let btn = document.getElementById("menu")
 let arr = document.getElementsByClassName("nav-linker")
 let head = document.getElementsByClassName("heading")[0];
 let ul_show = document.getElementsByClassName("linking")[0];
-let i =0;
+let scroll =0;
 btn.addEventListener("click", ()=>{
     head.classList.toggle("expand")
     btn.classList.toggle("fa-bars")
     btn.classList.toggle("fa-close")
     ul_show.classList.toggle("show")
-    i++;
-    if(i>1){
+    scroll++;
+    if(scroll>1){
         ul_show.classList.toggle("hide")
     }
     for (let i = 0; i < arr.length; i++) {
