@@ -1,6 +1,7 @@
 let sharebtn = document.querySelector(".fa-share-alt");
-let title = window.document.title;
-let url1 = window.document.href;
+let title = window.location.title;
+let url1 = window.location.href;
+
 sharebtn.addEventListener("click", () => {
     if (navigator.share) {
         navigator.share({
@@ -12,5 +13,22 @@ sharebtn.addEventListener("click", () => {
             .catch(error=>{
                
             })
+    }
+})
+
+
+let btn = document.getElementById("menu")
+let arr = document.getElementsByClassName("nav-linker")
+let head = document.getElementsByClassName("heading")[0];
+let ul_show = document.getElementsByClassName("linking")[0];
+
+btn.addEventListener("click", ()=>{
+    head.classList.toggle("expand")
+    btn.classList.toggle("fa-bars")
+    btn.classList.toggle("fa-close")
+    ul_show.classList.toggle("show")
+    ul_show.classList.toggle("hide")
+    for (let i = 0; i < arr.length; i++) {
+        arr[i].classList.toggle("act")
     }
 })

@@ -52,20 +52,42 @@ header{
 ul{
     margin-bottom: 0!important;
 }
-
+.linking{
+    display: block;
+}
 @media (max-width:994px){
+    .linking{
+        /* display: none; */
+        /* display: block!important; */
+        /* z-index: 5; */
+        left: 0;
+        position: absolute;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .show{
+        display: block;
+        z-index: 5;
+        animation: draweropen 2s 1;
+    }
     header{
         min-height: 100px;
-        height: auto;
+        /* height: auto; */
+    }
+    .hide{
+        display: block;
+        left: -100%;
+        animation: drawerclose 2s 1;
     }
     .nav-linker{
-        display: none;
+        display: block;
         margin: 0;
         text-align: center;
         padding: 0.5rem;
     }
     .act{
         display: block;
+        border-bottom: 2px solid white;
     }
     .heading{
         height: 100px;
@@ -164,5 +186,24 @@ ul{
     }
     .contact-btn a{
         margin: 0 12px;
+    }
+}
+
+
+/* Animation */
+@keyframes draweropen {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+@keyframes drawerclose {
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: -100%;
     }
 }
