@@ -60,7 +60,7 @@ ul{
         /* display: none; */
         /* display: block!important; */
         /* z-index: 5; */
-        left: 0;
+        left: -100%;
         position: absolute;
         width: 100%;
         margin-top: 10px;
