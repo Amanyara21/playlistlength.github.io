@@ -45,7 +45,7 @@
 .box:hover{
     background-color: rgb(0, 0, 0, 0.4);
 }
-.fa-close{
+.crossMark{
     cursor: pointer;
 }
 .DelBtn{
@@ -58,7 +58,7 @@
     color: black;
 
 }
-.fa-close{
+.crossMark{
     position: absolute;
 }
 .NotVisible{
@@ -79,10 +79,10 @@
 .Noteheading{
     font-size: 35px;
 }
-.fa-close{
+ .crossMark{
     position: absolute;
-    left: 75vw;
-    top: 10px;
+    right: 20pxvw;
+    top: 20px;
     font-size: 25px;
     color: black;
-}
+} 

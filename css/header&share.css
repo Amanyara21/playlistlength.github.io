@@ -70,7 +70,7 @@ ul{
         display: block;
         z-index: 3;
         left: 0%;
-        animation: draweropen 2s 1;
+        animation: draweropen 1s 1;
     }
     header{
         min-height: 100px;
@@ -80,7 +80,7 @@ ul{
         display: block;
         left: -120%;
         z-index: 3;
-        animation: drawerclose 2s 1;
+        animation: drawerclose 1s 1;
     }
     .nav-linker{
         display: block;
@@ -192,8 +192,8 @@ ul{
         margin: 0 12px;
     }
     .contact-btn div {
-          margin: 0 12px;
-    }
+        margin: 0 12px;
+  }
 }
 
 
