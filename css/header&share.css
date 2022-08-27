@@ -12,6 +12,9 @@
     flex: 1;
     align-items: center;
 }
+input{
+    outline:none;
+}
 .hyperlinks{
     text-decoration: none;
     color: whitesmoke;
