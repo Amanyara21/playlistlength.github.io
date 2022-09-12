@@ -149,6 +149,7 @@ button a:hover{
 @media screen and (max-width: 600px) {
     .container1{
         height: auto;
+	padding:20vh 0;
     }
 }
 
