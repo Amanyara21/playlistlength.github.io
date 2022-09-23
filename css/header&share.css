@@ -25,6 +25,7 @@ header{
 
 .nav-linker:hover {
     background: #03e9f4!important;
+    border-radius: 10px;
     color: #050801!important;
 }
 .nav-linker:hover > a{
