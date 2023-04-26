@@ -8,7 +8,7 @@ Press the "Calculate Time" button.
 The total time of the playlist or videos will be displayed.
 To generate a timetable, enter the number of hours you want to watch the playlist for and press the "Generate Timetable" button.
 A timetable of when to watch the videos on the playlist will be displayed.
-# Contributing
+# Contributing 
 If you wish to contribute to this project, please follow these guidelines:
 
 Fork the repository.
